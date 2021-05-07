@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import DetailsPage from "./pages/DetailsPage";
+import DetailsPage from "./pages/DetailsPage/DetailsPage";
 import FeedPage from "./pages/FeedPage";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   return (
@@ -12,8 +11,8 @@ function App() {
       <NavBar />
       <Switch>
         <Route path="/feed" component={FeedPage} />
-        <Route path="/beer/:id" />
-        <Route path="/details" component={DetailsPage} />
+
+        <Route path="/details/:id" component={DetailsPage} />
         <Route path="/" component={HomePage} />
       </Switch>
     </div>

@@ -4,8 +4,8 @@ export default function BeerCard(props) {
   return (
     <div>
       <h3>{props.title}</h3>
-      <Link to={`/DetailsPage/${props.id}`}>
-        <img style={{ margin: 0 }} src={props.img} />
+      <Link to={`/details/${parseInt(props.id)}`}>
+        <img style={{ margin: 0 }} src={props.img} alt="" />
       </Link>
       <div>
         <button>like</button>

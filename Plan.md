@@ -24,15 +24,15 @@
 
 2. FeedPage
 
-- Decide on API.
-- Set up `useEffect` to call API
-  - do axios request to API
-  - STOP: console.log the data of the response to know what we are getting from the API
-- Set up `useState` to store this data. Set it to state
-- After setting it to state, console.log the state. See that it changes from empty at the beginning to having some data on the next render
-- Once you see the data in your state: **Render it!**
+#- Decide on API.
+#- Set up `useEffect` to call API
+#- do axios request to API
+#- STOP: console.log the data of the response to know what we are getting from the API
+#- Set up `useState` to store this data. Set it to state
+#- After setting it to state, console.log the state. See that it changes from empty at the beginning to having some data on #the next render
+#- Once you see the data in your state: **Render it!**
 
-- Create presentational component to render our posts
+#- Create presentational component to render our posts
 
 **Commit and push, feed done**
 

@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.beer-img {
+  /* transform: rotate(45deg); */
+  margin-top: 80px;
+  /* object-fit: cover; */
+}
+.item-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex: 1 0 40%;
+  margin: 30px;
+}
+li,
+ul {
+  list-style-type: none;
+  background-color: gainsboro;
+}
+li {
+  color: dimgray;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.item-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 40%;
+  margin: 30px;
+}
+.title,
+.beer-img {
+  align-self: center;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .beer-img {
+    animation: beer-img-spin infinite 20s linear;
+  }
+}
+
+@keyframes beer-img-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

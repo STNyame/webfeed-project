@@ -13,7 +13,8 @@ export default function FeedPage() {
     };
     fetchData();
     console.log(data);
-  }, []);
+  });
+
   return (
     <div>
       <h1>Im feedpage!</h1>
@@ -22,7 +23,12 @@ export default function FeedPage() {
           data.map((beer) => {
             return (
               <div className="beer-item">
-                <BeerCard title={beer.name} img={beer.image_url} />
+                <BeerCard
+                  key={beer.id}
+                  id={beer.id}
+                  title={beer.name}
+                  img={beer.image_url}
+                />
               </div>
             );
           })}
