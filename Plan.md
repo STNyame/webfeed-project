@@ -2,20 +2,23 @@
 
 0. Setup:
 
-- Create-react-app webfeed.
-- install tools: router + axios
-- Page/component skeletons (3 of them)
-- react-router-dom
-  - index.js => import Router and wrap <App>.
-  - App.js: Setup a <Switch> and some <Route > for our pages
-  - NavBar with Links to move between our pages.
+#- Create-react-app webfeed.  
+#- install tools: router + axios
+#- Page/component skeletons (3 of them)
+#- react-router-dom
+
+# - index.js => import Router and wrap <App>.
+
+#- App.js: Setup a <Switch> and some <Route > for our pages
+
+# - NavBar with Links to move between our pages.
 
 **Git commit and push ("Set up app")**
 
 1. LandingPage:
 
-- Title/Welcome
-- Button to go to feed
+#- Title/Welcome
+#- Button to go to feed
 
 **Commit and push ("landing page done")**
 

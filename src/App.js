@@ -12,6 +12,7 @@ function App() {
       <NavBar />
       <Switch>
         <Route path="/feed" component={FeedPage} />
+        <Route path="/beer/:id" />
         <Route path="/details" component={DetailsPage} />
         <Route path="/" component={HomePage} />
       </Switch>

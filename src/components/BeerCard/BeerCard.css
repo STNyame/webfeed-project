@@ -1,0 +1,22 @@
+.beer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.beer-item {
+  flex: 1 0 21%;
+  display: flex;
+  margin: 20px 30px;
+  padding: 10px;
+  height: 300px;
+  box-shadow: 3px 3px 10px dimgray;
+  justify-content: center;
+}
+
+img {
+  height: 200px;
+
+  margin: 0;
+}
